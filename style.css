@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: coral;
+}
+form{
+    margin: 50px;
+    padding: 50px;
+    height: 45vh;
+    border: 1px solid lightgray;
+    border-radius: 1rem;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+}
+input{
+    padding: 0.5rem;
+    border-radius: 0.7rem;
+}
+.msg{
+    line-height: 3;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.outer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 2rem;
+}
+form img{
+    width: 2rem;
+    margin: 0 1rem 0 1rem;
+}
+button{
+    height: 38px;
+    width: 100%;
+    border-radius: 0.6rem;
+    margin-top: 2rem;
+    cursor: pointer;
+    background-color: lightslategray;
+    color: white;
+    font-size: 1.2rem;
+}
+.heading{
+    margin-top: 2rem;
+}
